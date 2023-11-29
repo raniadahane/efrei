@@ -6,6 +6,7 @@ import jakarta.persistence.Id;
 @Entity
 public class Item {
     @Id
+
     private Integer id;
     private String name;
     private Double price;
